@@ -9,4 +9,4 @@ stylus:
 	sed -i -e "1i \$$fontAwesomePath = '../font'\n" \
 				 -e "s_\.\./font_\$$fontAwesomePath_g" styl/font-awesome.styl
 
-.phony: all stylus
+.PHONY: all stylus
